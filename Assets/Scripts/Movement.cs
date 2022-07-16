@@ -27,7 +27,6 @@ public class Movement : MonoBehaviour
         if(Input.GetKey(KeyCode.Space))
         {
             rb.AddRelativeForce(Vector3.up * mainThrust * Time.deltaTime);
-            rb.AddRelativeForce(Vector3.down * mainThrust * Time.deltaTime);
         }
        
     }
