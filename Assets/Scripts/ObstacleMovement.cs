@@ -13,9 +13,10 @@ public class ObstacleMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        while(Time.time < 3){
+        while(Time.time > 3){
 
             transform.Translate(0, 3, 0);
+            
 
         }
     }
